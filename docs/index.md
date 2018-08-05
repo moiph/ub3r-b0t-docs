@@ -1,6 +1,6 @@
 # Intro
 
-UB3R-B0T is a multi purpose bot.
+UB3R-B0T is primarily a utility bot. He's also a bit grumpy because he's a 13 year old IRC bot and will show it in some of his responses. But with age, comes wisdom. Maybe. 
 
 ## Commands
 
