@@ -6,3 +6,12 @@ highlight_theme: default
 
 toc:
   selectors: # "h1,h2,h3" (default)
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: article
+      aside:
+        toc: true
+      show_edit_on_github: true
