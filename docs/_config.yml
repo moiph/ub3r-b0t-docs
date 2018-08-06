@@ -1,3 +1,5 @@
 remote_theme: kitian616/jekyll-text-theme
 title: "UB3R-B0T"
 description: "Everything you want and don't want to know about UB3R-B0T"
+text_skin: dark
+highlight_theme: default
