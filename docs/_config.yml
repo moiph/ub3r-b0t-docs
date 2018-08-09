@@ -1,33 +1,13 @@
-remote_theme: kitian616/jekyll-text-theme
+remote_theme: "mmistakes/minimal-mistakes"
 title: "UB3R-B0T"
 description: "Everything you want and don't want to know about UB3R-B0T"
-text_skin: dark
-highlight_theme: default
 
 lang: en
 
 repository: moiph/ub3r-b0t-docs
 repository_tree: master
 
-toc:
-  selectors: "h1,h2"
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: article
-      aside:
-        toc: true
-      show_edit_on_github: true
-  - scope:
-      path: "doscs"
-    values:
-      layout: article
-      aside:
-        toc: true
-      show_edit_on_github: true
+toc: true
 
 plugins:
   - jekyll-remote-theme
