@@ -21,6 +21,13 @@ defaults:
       aside:
         toc: true
       show_edit_on_github: true
+  - scope:
+      path: "doscs"
+    values:
+      layout: article
+      aside:
+        toc: true
+      show_edit_on_github: true
 
 plugins:
   - jekyll-remote-theme
