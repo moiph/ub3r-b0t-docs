@@ -15,6 +15,7 @@ toc:
 defaults:
   - scope:
       path: ""
+      type: posts
     values:
       layout: article
       aside:
