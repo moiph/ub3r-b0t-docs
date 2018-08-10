@@ -3,8 +3,22 @@
 ## 8ball
 Ask the magical 8ball a question, and get an answer.
 
+`.8ball question`
+
+```
+<arc_> .8ball tell me, do you bleed?
+<UB3R-B0T> Only on Tuesdays.
+```
+
 ## admin
 Creates administration settings for the server. (Discord only)
+
+`.admin`
+
+```
+<villzard> .admin
+<UB3R-B0T> Manage from https://ub3r-b0t.com/admin
+```
 
 ## anime
 Searches MyAnimeList.net for anime
