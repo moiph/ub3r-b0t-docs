@@ -9,7 +9,7 @@ There are quite a few commands. Some are legitimately useful (like reminders). S
 Find the full reference of commands here: [The commands](commands.md)
 
 
-## Conguration
+## Configuration
 
 Once UB3R-B0T has been added to your server, there are a number of ways you can configure the bot to suit your server.
 You can:
@@ -27,10 +27,10 @@ You can:
 
 UB3R-B0T supports notifications from various sources:
 - Mixer
+- Picarto
+- Rss
 - Twitch
 - Twitter
-- Picarto
-- RSS
 
 Configuration of each type can be done in the [Admin panel](https://ub3r-b0t.com/admin)
 

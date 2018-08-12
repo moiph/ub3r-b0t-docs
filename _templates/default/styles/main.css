@@ -1,14 +1,18 @@
 body {
-  background: #252525;
-  color: #f0e7d5;
+  background: #191919;
+  color: #c0c0c0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #e8e8e8;
+  color: #fff;
 }
 
 a {
-  color: #fc0;
+  color: #fb2;
+}
+
+.toc .nav > li > a:hover, .toc .nav > li > a:focus {
+  color: #fff;
 }
 
 header div.navbar {
@@ -21,8 +25,22 @@ body div.toc {
   background: #121212;
 }
 
-div.alert h5 {
-  color: #000;
+.alert-info, .alert-info h5 {
+  color: #d9edf7;
+  background: #004458;
+  border-color: #005873;
+}
+
+.alert-warning, .alert-warning h5 {
+  color: #fffaf2;
+  background: #80551a;
+  border-color: #99661f;
+}
+
+.alert-danger, .alert-danger h5 {
+  color: #fff2f2;
+  background: #4d0000;
+  border-color: #600;
 }
 
 article pre {
