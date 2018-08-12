@@ -128,3 +128,33 @@ Gets more jpeg for an image.
 
 ## kill
 No description available (yet)
+
+## letterboxd
+Pulls user info from [Letterboxd](https://letterboxd.com)
+
+## mal
+Gets info from a myanimelist.net profile
+
+## metal
+Searches metal-archives.com for band information.
+
+## meme
+Returns a url for requested meme with the given text (and thus displays it, if in Discord). Use .meme list for a list.
+
+## mtg
+Search for a magic the gathering card, powered by https://docs.magicthegathering.io
+
+## overwatch
+Gets overwatch stats for your player. Data provided through https://github.com/sirdoombox/Overwatch.Net, voice lines from http://http://overwatch.wikia.com.
+
+## patreon
+Pulls info for the give patreon user.
+
+## pcspecs
+Tells you your PC specs (approximately)
+
+## poll
+Creates a poll via strawpoll.me
+
+## quickpoll
+Starts a quick poll for a yes or no question, via reactions (discord)
