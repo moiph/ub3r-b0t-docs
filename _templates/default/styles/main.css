@@ -1,5 +1,5 @@
 body {
-  background: #191919;
+  background: #292929;
   color: #c0c0c0;
 }
 
@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: #fb2;
+}
+
+.toc .nav > li > a {
+  color: #999;
 }
 
 .toc .nav > li > a:hover, .toc .nav > li > a:focus {
