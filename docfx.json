@@ -31,7 +31,8 @@
         "repo": "https://github.com/moiph/ub3r-b0t-docs/",
         "branch": "master"
       },
-      "_gitUrlPattern": "github"
+      "_gitUrlPattern": "github",
+      "_enableSearch": true
     },
     "dest": "_site",
     "globalMetadataFiles": [],
@@ -39,7 +40,7 @@
     "template": [
       "default"
     ],
-    "postProcessors": [],
+    "postProcessors": ["ExtractSearchIndex"],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
