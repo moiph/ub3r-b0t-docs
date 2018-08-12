@@ -87,10 +87,12 @@ Creates large characters made up of ordinary screen characters
 Gets a fortune from http://yerkee.com.
 
 ## fox
-Returns a random fox from randomfox.ca. Because, foxes.
+Returns a random fox from https://randomfox.ca. Because, foxes.
 
 ## fm
-Get the most recent song a user has listened to (using their Last.FM account) You can also save your account name so that you can just type ".fm". The fmyt variant will include a search for a youtube link for the song.
+Get the most recent song a user has listened to (using their [Last.FM](https://last.fm) account) You can also save your account name so that you can just type ".fm". The fmyt variant will include a search for a youtube link for the song.
+
+Aliases: lastfm
 
 ## fml
 Pulls a random quote from http://fmylife.com.
@@ -158,3 +160,110 @@ Creates a poll via strawpoll.me
 
 ## quickpoll
 Starts a quick poll for a yes or no question, via reactions (discord)
+
+## quote
+Get or add quotes for your channel/server.
+
+## rant
+Rant at the bot. He's a good listener.
+
+## remove
+Removes a timer/warclock (for server owners).
+
+## report
+Reports a user for misbehavior
+
+## role
+Allows a user to self assign a role (or remove it). Configure available roles in the admin panel. (Discord)
+
+## roll
+Rolls the dice. Defaults to a 6 sided die but you can supply the # of sides.
+
+## rt
+Gets movie infro from Rotten Tomatoes.
+
+## seen
+Gets the last time the specified user was seen.
+
+## shibe
+Returns a random shibe from http://shibe.online. Because, shibes.
+
+## shorten
+Shortens a long url.
+
+## spotify
+Fetches link / info from spotify for a song.
+
+## steam
+Returns basic stats from steamcommunity.com for the given user. Note: The username given must be set as a custom URL. If you provide a game acronym (eg tf2) you'll get specific game stats rather than general steam stats.
+
+## steamnews
+Pulls the latest news headline from Steam.
+
+## stock
+Get stock information from Google Finance.
+
+## summon
+Summons a beast of some sort to perform {action}.
+
+## terminate
+Terminates your user data (weather settings, quotes, timers, etc)
+
+## timer
+Gets your current list of reminders.
+
+## tumblr
+Pulls a tumblr user's last post and links to their blog.
+
+## title
+Retrieves the title of the last URL seen in the channel.
+
+## trakt
+Gets a user's recently watched content from https://trakt.tv
+
+## translate
+Translates text. From a language to another language. Supported languages: ar, bg, ca, cs, da, de, el, en, es, et, fa, fi, fr, he, hi, ht, hu, id, it, ja, ko, lt, lv, ms, mww, nl, no, pl, pt, ro, ru, sk, sl, sv, th, tr, uk, ur, vi, zh-chs, zh-cht
+
+Aliases: tr
+
+## trello
+Grabs the current Trello board for task tracking. Vote on the cards important to you!
+
+## twitter
+Retrieves the latest update for the given user.
+
+## ud
+Gets a definition of a word/phrase from [Urban Dictionary](https://urbandictionary.com)
+
+## ups
+Tracks UPS packages! Works with FedEx, DHL, Ontrac, and USPS packages too! If you don't supply the 'track' keyword, you'll get an immediate status back. To see packages you're currently tracking, type .ups list. To remove tracking numbers, type .ups remove ###.
+
+## uptime
+Gets the bot's current uptime.
+
+## userinfo
+Displays some general info about the user (joined date, avatar, etc). Discord only.
+
+## votekick
+Starts a votekick
+
+## voice
+Adds the bot to the voice channel you're connected to (Discord). Use .dvoice to have him disconnect.
+
+## w
+Check the local weather! You can also save your location so that you don't need to provide a location every time. The other variants (fw/sw/nw etc) give weather data back in other, arguably more fun, ways... [Powered by Dark Sky](https://darksky.net/poweredby/)
+
+## wc
+Creates a clock to track how much time has passed since a particular event.
+
+## wiki
+Fetches the first result from Wikipedia.
+
+## wolfram
+Queries the Wolfram API for results on...anything! Instead of .wolfram you can also say "UB3R-B0T tell me [question]"
+
+## woot
+Displays the latest item from woot!
+
+## yt
+Searches youtube and returns the first result.
