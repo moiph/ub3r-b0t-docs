@@ -3,7 +3,7 @@
 ## 8ball
 Ask the magical 8ball a question, and get an answer.
 
-`.8ball question`
+`.8ball question` `.8 question`
 
 ```html
 <arc_> .8ball tell me, do you bleed?

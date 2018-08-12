@@ -2,6 +2,9 @@
 
 Everything you want and don't want to know about UB3R-B0T
 
+> [!WARNING]
+> This bot is a bit of an asshat. A loveable asshat, but nonetheless he's often sassy and rude. Anytime I've tried to improve his personality he just spits capacitors in my face.
+
 ## The Commands
 
 There are quite a few commands. Some are legitimately useful (like reminders). Some are useless (like the votekick command). Some are fun (like the beer command).
