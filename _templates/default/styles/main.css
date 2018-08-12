@@ -1,0 +1,58 @@
+body {
+  background: #252525;
+  color: #f0e7d5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e8e8e8;
+}
+
+a {
+  color: #fc0;
+}
+
+header div.navbar {
+  background: #333;
+  border-color: #000;
+}
+
+div.sidefilter, div.sidetoc,
+body div.toc {
+  background: #121212;
+}
+
+div.alert h5 {
+  color: #000;
+}
+
+article pre {
+  background: #191919;
+  border-color: #121212;
+}
+
+code.hljs,
+code.hljs .hljs-tag {
+  color: #efefef;
+}
+
+code {
+  background: #4a4c52;
+  color: #fff;
+}
+
+nav.affix {
+  overflow-y: auto;
+  padding-right: 15px;
+}
+
+nav.affix > ul.level1 {
+  overflow: visible;
+}
+
+nav.affix ul > li > a {
+  color: #ccc;
+}
+
+div.footer {
+  background: #252525;
+}

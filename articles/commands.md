@@ -5,7 +5,7 @@ Ask the magical 8ball a question, and get an answer.
 
 `.8ball question`
 
-```
+```html
 <arc_> .8ball tell me, do you bleed?
 <UB3R-B0T> Only on Tuesdays.
 ```
@@ -15,7 +15,7 @@ Creates administration settings for the server. (Discord only)
 
 `.admin`
 
-```
+```html
 <villzard> .admin
 <UB3R-B0T> Manage from https://ub3r-b0t.com/admin
 ```
