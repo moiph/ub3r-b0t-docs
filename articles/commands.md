@@ -519,7 +519,7 @@ Starts a quick poll for a yes or no question, via reactions (discord)
 
 `.qp yes/no question`
 
-![Quick Poll example](/images/qp.png)
+![Quick Poll example](~/images/qp.png)
 
 ```html
 <troos> .qp should we play tf2?
