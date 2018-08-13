@@ -2,5 +2,7 @@
   href: intro.md
 - name: Commands
   href: commands.md
+- name: Notifications
+  href: notifications.md
 - name: FAQ
   href: faq.md
