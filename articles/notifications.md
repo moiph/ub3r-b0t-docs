@@ -16,4 +16,4 @@ A commonly asked question is "How do I setup notification for a YouTube channel?
 See http://blog.markheadrick.com/2016/05/12/how-to-get-a-youtube-channels-rss-feed/ for how to get the feed URL, and add it into the RSS notifications section in the admin panel.
 
 ## Limits
-The max number of noitificaiton subscriptions is 10 per type, but that limit is upped to 30 for patreon subscribers.
+The max number of noitification subscriptions is 10 per type, but that limit is upped to 30 for patreon subscribers.

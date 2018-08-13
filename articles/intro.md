@@ -50,7 +50,7 @@ Ugh I hate upselling but if you wanna join the [Patreon](https://www.patreon.com
 
 ## Reporting issues
 
-You can use the `.feedback` command for general feedback or suggestions. For more technical issues you can file something on the main project page: [https://github.com/moiph/ub3r-b0t](https://github.com/moiph/ub3r-b0t)
+You can use the `feedback` command for general feedback or suggestions. For more technical issues you can file something on the main project page: [https://github.com/moiph/ub3r-b0t](https://github.com/moiph/ub3r-b0t)
 You can also swing by the [UB3R-B0T Discord server](https://discord.gg/0t6waxpRf4xvyNHj) and ask questions in the #bot-questions channel (or whichever one is most appropriate)
 Prove you at least read some of the documentation by saying "A Møøse once bit my sister"
 We'll be nicer knowing you manged to read.
