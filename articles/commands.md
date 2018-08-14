@@ -875,8 +875,10 @@ Adds the bot to the voice channel you're connected to (Discord). Use .dvoice to 
 <ikaraus> .dvoice
 ```
 
-## w
+## weather
 Check the local weather! You can also save your location so that you don't need to provide a location every time. The other variants (fw/sw/nw etc) give weather data back in other, arguably more fun, ways... [Powered by Dark Sky](https://darksky.net/poweredby/)
+
+Aliases: `w` `sw` `fw` `nw`
 
 ```html
 <moiph> .w 61820
