@@ -7,15 +7,3 @@ Documentation for [UB3R-B0T](https://github.com/moiph/ub3r-b0t)
 **Official [Documentation](https://ub3r-b0t.com/docs/articles/intro.html)**
 
 **Support [Discord](https://discord.gg/0t6waxpRf4xvyNHj)**
-
-----
-
-### Articles
-
-[Intro](articles/intro.md)
-
-[Commands](articles/commands.md)
-
-[Notifications](articles/notifications.md)
-
-[FAQ](articles/faq.md)
