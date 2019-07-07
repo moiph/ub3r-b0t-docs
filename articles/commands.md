@@ -752,6 +752,25 @@ Retrieves the title of the last URL seen in the channel (or the provided URL, if
 <UB3R-B0T> On Flying Ants
 <eric-sad> I don't like ants :(
 ```
+## track
+Tracks packages! Works with FedEx, DHL, Ontrac, UPS, and USPS packages too! To see packages you're currently tracking, type .track list.
+
+`.track [carrier] ### [description]` `.track list`
+
+```html
+<Robo_Leader> .track ups 1ZY232580398906846
+<UB3R-B0T> Now tracking 1ZY232580398906846 for Robo_Leader
+...
+<UB3R-B0T> oshi- Robo_Leader, an upsdate!
+<UB3R-B0T> Status: In Transit - On Time | Scheduled Delivery: 10/02/2009 | Location:  ROSEBURG OR US  
+           @ 09/30/2009 12:47 P.M. for DEPARTURE SCAN
+<Lummeh> .track list
+<UB3R-B0T> Currently tracking: 1Z3X295R0393256158 005794585637304
+...
+<Lummeh> yo UB3R-B0T where are my packages
+<UB3R-B0T> Status: In Transit | Scheduled Delivery: 10/03/2009 | Location: ADDISON IL US
+           @ 10/1/2009 3:43 P.M. for ARRIVAL SCAN
+```
 
 ## trakt
 Gets a user's recently watched content from https://trakt.tv
@@ -807,28 +826,7 @@ Gets a definition of a word/phrase from [Urban Dictionary](https://urbandictiona
 ```
 
 ## ups
-Tracks UPS packages! Works with FedEx, DHL, Ontrac, and USPS packages too! If you don't supply the 'track' keyword, you'll get an immediate status back. To see packages you're currently tracking, type .ups list. To remove tracking numbers, type .ups remove ###.
-
-`.ups track ### [description]` `.ups list` `.ups remove ###`
-
-```html
-<Robo_Leader> .ups track 1ZY232580398906846
-<UB3R-B0T> Now tracking 1ZY232580398906846 for Robo_Leader
-...
-<UB3R-B0T> oshi- Robo_Leader, an upsdate!
-<UB3R-B0T> Status: In Transit - On Time | Scheduled Delivery: 10/02/2009 | Location:  ROSEBURG OR US  
-           @ 09/30/2009 12:47 P.M. for DEPARTURE SCAN  | Weight: 3.00 Lbs
-<Lummeh> .ups list
-<UB3R-B0T> Currently tracking: 1Z3X295R0393256158 005794585637304
-<SlayerGhede> .ups remove aaaaaaa
-<john_doh> dude that is such an invalid tracking # how the hell did that even get through UB3R-B0T's 
-           intense series of validation checks?
-<UB3R-B0T> removed!
-...
-<Lummeh> yo UB3R-B0T where are my packages
-<UB3R-B0T> Status: In Transit | Scheduled Delivery: 10/03/2009 | Location: ADDISON IL US
-           @ 10/1/2009 3:43 P.M. for ARRIVAL SCAN | Weight: 2.00 Lbs
-```
+Deprecated; use the `track` command instead
 
 ## uptime
 Gets the bot's current uptime.
