@@ -755,7 +755,7 @@ Retrieves the title of the last URL seen in the channel (or the provided URL, if
 ## track
 Tracks packages! Works with FedEx, DHL, Ontrac, UPS, and USPS packages too! To see packages you're currently tracking, type .track list.
 
-`.track [carrier] ### [description]` `.track list`
+`.track [carrier] ### [description]` `.track list` `.track remove`
 
 ```html
 <Robo_Leader> .track ups 1ZY232580398906846
