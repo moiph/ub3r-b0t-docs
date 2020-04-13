@@ -527,6 +527,7 @@ Starts a quick poll for a yes or no question, via reactions (discord)
 
 ## quote
 Get or add quotes for your channel/server.
+If you're on Discord, you can react to a message with the 💬 emoji to add a quote.
 
 `.quote` `.quote #` `.quote @nickname` `.quote add "text" - author` `.quote edit # "text" - author` `.quote remove #`
 
