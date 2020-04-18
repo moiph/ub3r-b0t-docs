@@ -91,6 +91,22 @@ Returns a random bird from http://shibe.online. Because, birds.
 <UB3R-B0T> http://cdn.shibe.online/birds/1860ec50c735a5d06462feae203be4cee4d1c6c4.jpg
 ```
 
+## birthday
+Sets your birthday for retrieval or notifications.
+
+Aliases: `bday`
+
+`.birthday | .birthday set dd/mm | .birthday remove | Notifications: .birthday on | .birthday off | .birthday clear`
+
+```html
+<don> .bday set 25/12
+<UB3R-B0T> Your birthday has been set to December 25 🍰
+<don> .bday
+<UB3R-B0T>  Your birthday is December 25! patience... 198 days...not even halfway there...
+<don> .bday on
+<UB3R-B0T> Your birthday notifications have been set for this channel.
+```
+
 ## cat
 Returns a random cat from http://random.cat. Because, cats.
 
@@ -282,7 +298,7 @@ Returns a random fox from https://randomfox.ca. Because, foxes.
 ## fm
 Get the most recent song a user has listened to (using their [Last.FM](https://last.fm) account) You can also save your account name so that you can just type `.fm`. The `fmyt` variant will include a search for a youtube link for the song.
 
-Aliases: lastfm
+Aliases: `lastfm`
 
 `.fm username` `.fm set username` `.fm` `.fmyt`
 
@@ -784,7 +800,7 @@ Gets a user's recently watched content from https://trakt.tv
 ## translate
 Translates text. From a language to another language. Supported languages: ar, bg, ca, cs, da, de, el, en, es, et, fa, fi, fr, he, hi, ht, hu, id, it, ja, ko, lt, lv, ms, mww, nl, no, pl, pt, ro, ru, sk, sl, sv, th, tr, uk, ur, vi, zh-chs, zh-cht
 
-Aliases: tr
+Aliases: `tr`
 
 `.translate language text` [Note: language is the ISO code e.g. es, fr, de, etc
 
