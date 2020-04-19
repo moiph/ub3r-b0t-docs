@@ -84,6 +84,8 @@ Gets info about a board game, from [BoardgameGeek](https://boardgamegeek.com)
 ## bird
 Returns a random bird from http://shibe.online. Because, birds.
 
+Aliases: `birb`
+
 `.bird`
 
 ```html
@@ -92,7 +94,7 @@ Returns a random bird from http://shibe.online. Because, birds.
 ```
 
 ## birthday
-Sets your birthday for retrieval or notifications.
+Sets your birthday for retrieval or notifications. Currently based off of UTC (i.e. notifications will fire at midnight UTC of your birthday).
 
 Aliases: `bday`
 
@@ -568,9 +570,12 @@ Rant at the bot. He's a good listener.
 ```
 
 ## remove
-Removes a timer/warclock (for server owners).
+Removes a timer/warclock/birthday notifications (for server owners).
+Doing a remove on a 'user' type currently removes all timers associated with that user.
+For wc/timer the ID should be the ID of the respective item.
+For user/bday the ID should be the user's ID.
 
-`.remove wc #` `.remove timer #`
+`.remove wc #` `.remove timer #` `.remove user #` `.remove bday #`
 
 ```html
 <ti84ps> .remove wc 1337
