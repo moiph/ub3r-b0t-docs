@@ -607,7 +607,7 @@ By default the reactions are ➕ and ➖, but can be changed in the admin settin
 
 `.role generate @role #channel Message text here`
 
-You can prefix the `@role` with `\` to supress it from being mentioned.
+You can replace @role with the roleId if you don't want your message to ping the role. (Or, enable role mentions after setup is done)
 
 ## roll
 Rolls the dice. Defaults to a 6 sided die but you can supply the # of sides.
