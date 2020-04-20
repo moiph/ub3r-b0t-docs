@@ -602,6 +602,13 @@ Allows a user to self assign a role (or remove it). Configure available roles in
 <UB3R-B0T> granted access to role pwing
 ```
 
+If you have Manage Roles permissions, you can also generate a message to allow users to add/remove a role by reactions.
+By default the reactions are ➕ and ➖, but can be changed in the admin settings.
+
+`.role generate @role #channel Message text here`
+
+You can prefix the `@role` with `\` to supress it from being mentioned.
+
 ## roll
 Rolls the dice. Defaults to a 6 sided die but you can supply the # of sides.
 `.roll 20` `.roll 6d20` `.roll 20 37 100 42`
