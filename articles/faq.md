@@ -82,5 +82,5 @@ To give a user access to the admin panel, they need to have the Manage Server pe
 ## How do I change the command prefix?
 You can change the bot's command prefix in the admin panel.
 
-## I'm getting an error about "Shared search limit reached for the day. Provide your own API key in the admin panel to maintain limits for your own server"
-Some commands talk to external APIs which require application keys. The default ones used by UB3R-B0T hit their limits very quickly. You need to go to the admin panel and follow the instructions in the commands section to add your own keys.
+## I'm getting an error about "shared search limits"
+Some commands may return an error message about "Shared search limit reached for the day. Provide your own API key in the admin panel to maintain limits for your own server". These talk to external APIs which require application keys. The default ones used by UB3R-B0T hit their limits very quickly. You need to go to the admin panel and follow the instructions in the commands section to add your own keys.
