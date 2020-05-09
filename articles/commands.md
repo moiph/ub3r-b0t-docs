@@ -332,16 +332,6 @@ Get the top result from a Google search
 <UB3R-B0T> https://bing.com
 ```
 
-## gamerank
-Gets the game rankings review score of a game.
-
-`.gamerank game name`
-
-```html
-<apple> .gamerank link to the past
-<UB3R-B0T> The Legend of Zelda: A Link to the Past: 92.87%
-```
-
 ## gh
 Fetches github data from the commits page of a repo. Not very useful standalone, better in a feeds scenario. Contact moiph if you're interested in pushing commit updates to a channel.
 
