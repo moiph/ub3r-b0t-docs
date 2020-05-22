@@ -398,7 +398,7 @@ Gets movie info from [IMDB](https://imdb.com)
 ```
 
 ## insult
-Get an insult
+Get an insult, powered by the lovely contents found at https://github.com/jasonlau/jQuery-jlInsults
 
 `.insult username`
 
