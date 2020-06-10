@@ -510,16 +510,14 @@ Tells you your PC specs (approximately)
 ```
 
 ## poll
-Creates a poll via https://strawpoll.me
+Creates a poll via https://strawpoll.com
 
-> [!NOTE]
-> Currently broken :(
-
-`.poll question | option 1 | option 2 | ...`
+`.poll [--multi] "question" "description" | option 1 | option 2 | ...`
+Only provide --multi if you want multiple options to be selected in a single vote.
 
 ```html
-<j> .poll Is this best poll ? | Yes | No
-<UB3R-B0T> http://www.strawpoll.me/11523621
+<j> .poll Is this best poll? | Yes | No
+<UB3R-B0T> https://strawpoll.com/asdf
 ```
 
 ## quickpoll
