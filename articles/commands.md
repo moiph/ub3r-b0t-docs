@@ -439,9 +439,20 @@ Pulls user info from [Letterboxd](https://letterboxd.com)
 ```
 
 ## mal
-Gets info from a MyAnimeList.net](https://myanimelist.net) profile
+Gets info from a [MyAnimeList.net](https://myanimelist.net) profile
 
 `.mal username`
+
+## manga
+Searches [MyAnimeList.net](https://myanimelist.net) for manga
+
+`.manga manga name`
+
+```html
+<wheat> .manga planetes
+<UB3R-B0T> Planetes: Planetes: https://myanimelist.net/manga/481/Planetes (1999 - 2004) | Score: 8.36 | Volumes: 4 | Chapters: 27
+<moiph> excellent choice.
+```
 
 ## metal
 Searches metal-archives.com for band information.
