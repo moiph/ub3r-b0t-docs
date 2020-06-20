@@ -479,7 +479,7 @@ Returns a url for requested meme with the given text (and thus displays it, if i
 ```
 
 ## mtg
-Search for a magic the gathering card, powered by https://docs.magicthegathering.io
+Search for a magic the gathering card, powered by https://scryfall.com/
 
 `.mtg card name`
 
