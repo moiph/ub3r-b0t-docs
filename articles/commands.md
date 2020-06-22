@@ -220,6 +220,17 @@ Returns a random dog from random.dog. Because, dogs.
 <UB3R-B0T> http://random.dog/20549-24554-21155.jpg
 ```
 
+## event
+Fetches a random historical event from the day, from Wikipedia
+
+`.event | .event dd/mm`
+
+```html
+<arnold> .event
+<UB3R-B0T> Random event from 21 of June: 1749 – Halifax, Nova Scotia, is founded. | https://en.wikipedia.org/wiki/Halifax,_Nova_Sco\
+tia
+```
+
 ## expand
 Expands a tiny url.
 
