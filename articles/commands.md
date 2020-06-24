@@ -747,9 +747,9 @@ Terminates your user data (weather settings, quotes, timers, etc)
 ```
 
 ## timer
-Set a timer, update an existing timer to repeat, gets your current list of reminders, or remove a timer.
+Set a timer, update an existing timer to repeat, gets your current list of reminders, remove a timer, or snooze/unsnooze a recurring timer.
 
-`hey buttmunch remind [me|someone else] in X [minutes|hours|days|weeks] to Y` `.timer list` `.timer remove ID` `.timer repeat id [daily|weekly|xh]`
+`hey buttmunch remind [me|someone else] in X [minutes|hours|days|weeks] to Y` `.timer list` `.timer remove ID` `.timer repeat id [daily|weekly|xh]` `.timer [snooze|unsnooze] id`
 
 ```html
 <potato> hey buttmonkey remind me in 5 minutes to dance
@@ -768,7 +768,12 @@ Set a timer, update an existing timer to repeat, gets your current list of remin
 --
 <mushroom> .timer repeat 7513 5h
 <UB3R-B0T> Timer updated to repeat every 5 hours.
+--
+<tomato> .timer snooze 5174
+<UB3R-B0T> Timer snoozed.
 ```
+
+Setting a timer to 'snooze' will suppress it from sending a notification, and only applies to recurring timers. Unsnoozing will resume it.
 
 ## tumblr
 Pulls a tumblr user's last post and links to their blog.
