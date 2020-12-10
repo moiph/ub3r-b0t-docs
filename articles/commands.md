@@ -538,7 +538,7 @@ Creates a poll via https://strawpoll.com
 Only provide --multi if you want multiple options to be selected in a single vote.
 
 ```html
-<j> .poll Is this best poll? | Yes | No
+<j> .poll "Is this best poll?" "Well is it?" | Yes | No
 <UB3R-B0T> https://strawpoll.com/asdf
 ```
 
