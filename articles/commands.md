@@ -543,14 +543,16 @@ Only provide --multi if you want multiple options to be selected in a single vot
 ```
 
 ## quickpoll
-Starts a quick poll for a yes or no question, via reactions (discord)
+Starts a quick poll for a yes or no question, via reactions (discord). Add --options # to use a numbered list instead of yes/no
 
-`.qp yes/no question`
+`.qp yes/no question` `.qp yes/no question --options 4`
 
 ![Quick Poll example](~/images/qp.png)
 
 ```html
 <troos> .qp should we play tf2?
+<troos> .qp which tf should we play? --options 3
+<troos> lol jk there's no tf3
 ```
 
 ## quote
