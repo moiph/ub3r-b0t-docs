@@ -715,16 +715,13 @@ Pulls the latest news headline from Steam.
 ```
 
 ## stock
-Get stock information from Google Finance.
+Get stock information from https://www.alphavantage.co/
 
 `.stock symbol`
 
 ```html
-<bucky> .stock Seagate
-<UB3R-B0T> Seagate Technology (Public, NYSE:STX)
-<UB3R-B0T> Price:      23.75  +1.08
-<UB3R-B0T>  Open:      23.50   High:      23.88
-<UB3R-B0T>   Vol:               Low:      22.58
+<bucky> .stock gme
+<UB3R-B0T> GameStop Corp. (NYSE: GME) | Price: 347.5100 | Open: 354.8300 | Change: 199.5300 | High: 380.0000 | Low: 249.0000 |  Volume: 90516825
 ```
 
 ## summon
