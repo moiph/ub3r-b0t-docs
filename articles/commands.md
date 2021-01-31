@@ -25,6 +25,16 @@ Creates administration settings for the server. (Discord only)
 <UB3R-B0T> Manage from https://ub3r-b0t.com/admin
 ```
 
+## animal
+Returns a random animal picture from the assortment of animal commands (cat, dog, bird, etc). Because, animals.
+
+`.animal`
+
+```html
+<acoha> .animal
+<UB3R-B0T> http://random.dog/20549-24554-21155.jpg
+```
+
 ## anime
 Searches [MyAnimeList.net](https://myanimelist.net) for anime
 
@@ -58,6 +68,16 @@ Gets the most recent items from a user's [backloggery](http://backloggery.com/) 
 ```html
 <eeeeeee> .backlog moiph
 <UB3R-B0T> moiph has most recently played Overwatch | http://backloggery.com/moiph
+```
+
+## bear
+Returns a random bear from https://and-here-is-my-code.glitch.me/. Because, bears.
+
+`.bear`
+
+```html
+<adamjm99> .bear
+<UB3R-B0T> https://i.imgur.com/064u3tT.jpg
 ```
 
 ## beer
@@ -110,7 +130,7 @@ Aliases: `bday`
 ```
 
 ## cat
-Returns a random cat from http://random.cat. Because, cats.
+Returns a random cat from http://thecatapi.com/. Because, cats.
 
 `.cat`
 
@@ -218,6 +238,16 @@ Returns a random dog from random.dog. Because, dogs.
 ```html
 <hw> .dog
 <UB3R-B0T> http://random.dog/20549-24554-21155.jpg
+```
+
+## duck
+Returns a random duck from https://random-d.uk. Because, ducks.
+
+`.duck`
+
+```html
+<birdie> .duck
+<UB3R-B0T> https://random-d.uk/api/143.jpg
 ```
 
 ## event
@@ -408,6 +438,16 @@ Gets movie info from [IMDB](https://imdb.com)
 <UB3R-B0T> URL: http://imdb.com/title/tt0379786/
 ```
 
+## inspire
+Get an inspirational message overlayed on an image. Powered by https://inspirobot.me/
+
+`.inspire`
+
+```html
+<paulo> .inspire
+<UB3R-B0T> https://generated.inspirobot.me/a/rVJqD99gew.jpg
+```
+
 ## insult
 Get an insult, powered by the lovely contents found at https://github.com/jasonlau/jQuery-jlInsults
 
@@ -429,6 +469,16 @@ Gets more jpeg for an image.
 <UB3R-B0T> [PRETEND THERE'S AN IMAGE HERE]
 ```
 
+## kangaroo
+Returns a random kangaroo from https://some-random-api.ml. Because, kangaroos.
+
+`.kangaroo`
+
+```html
+<phoenix> .kangaroo
+<UB3R-B0T> https://i.some-random-api.ml/0TYIwPumem.jpg
+```
+
 ## kill
 No description available (yet)
 
@@ -439,6 +489,16 @@ No description available (yet)
 <UB3R-B0T> apology for poor english ... when were you when finite dies? i was being rate limited when moiph ring ... "FINITE is kill."   "no"
 ```
 
+## koala
+Returns a random koala from https://some-random-api.ml/. Because, koalas.
+
+`.koala`
+
+```html
+<syrus> .koala
+<UB3R-B0T> https://i.some-random-api.ml/8AYPjXtIKV.jpg
+```
+
 ## letterboxd
 Pulls user info from [Letterboxd](https://letterboxd.com)
 
@@ -447,6 +507,16 @@ Pulls user info from [Letterboxd](https://letterboxd.com)
 ```html
 <colonel> .letterboxd colonelmortimer
 <UB3R-B0T> Last watched: Mission: Impossible - Fallout (2018) on 2018-07-24 | https://letterboxd.com/colonelmortimer/
+```
+
+## lizard
+Returns a random lizard from https://some-random-api.ml/. Because, lizards.
+
+`.lizard`
+
+```html
+<rukind> .lizard
+<UB3R-B0T> https://cdn.nekos.life/lizard/0064.jpg
 ```
 
 ## mal
@@ -510,6 +580,26 @@ Gets overwatch stats for your player. Data provided through https://github.com/s
 <UB3R-B0T> Level: 32 | Games won: 89/172 (52%) | Most played: Soldier: 76
 ```
 
+## owl
+Returns a random owl from http://pics.floofybot.moe. Because, owls.
+
+`.owl`
+
+```html
+<nick> .owl
+<UB3R-B0T> https://imgur.com/dOXyeRM
+```
+
+## panda
+Returns a random panda from https://some-random-api.ml. Because, pandas.
+
+`.panda`
+
+```html
+<panda> .panda
+<UB3R-B0T> https://i.imgur.com/l4bahU8.jpg
+```
+
 ## patreon
 Pulls info for the give patreon user.
 
@@ -571,6 +661,18 @@ If you're on Discord, you can react to a message with the 💬 emoji to add a qu
 <UB3R-B0T> [#42] "DATA FOREVER" - vision
 ```
 
+## raccoon
+Returns a random raccoon from https://some-random-api.ml. Because, raccoons.
+
+Aliases: `trashpanda`
+
+`.raccoon`
+
+```html
+<panda> .raccoon
+<UB3R-B0T> https://i.some-random-api.ml/4cXzHcEMgo.jpg
+```
+
 ## rant
 Rant at the bot. He's a good listener.
 
@@ -579,6 +681,16 @@ Rant at the bot. He's a good listener.
 ```html
 <svarrenglossen> .rant fml
 <UB3R-B0T> D:
+```
+
+## redpanda
+Returns a random red panda from https://some-random-api.ml/. Because, red pandas.
+
+`.redpanda`
+
+```html
+<helly> .redpanda
+<UB3R-B0T> https://i.imgur.com/KsXZmyv.png
 ```
 
 ## remove
@@ -948,6 +1060,16 @@ Creates a clock to track how much time has passed since a particular event.
 <UB3R-B0T> warclock reset.
 <cbp> .wc 1337
 <UB3R-B0T> (#1337) time since moiph created warclock command: 30 seconds
+```
+
+## whale
+Returns a random whale from https://some-random-api.ml/. Because, whales.
+
+`.whale`
+
+```html
+<wine> .whale
+<UB3R-B0T> https://i.some-random-api.ml/v7F4ESFMNk.jpg
 ```
 
 ## wiki
