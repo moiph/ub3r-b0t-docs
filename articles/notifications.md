@@ -2,7 +2,6 @@
 
 Everyone loves notifications right? UB3R-B0T supports notifications from various sources:
 
-- Mixer
 - Picarto
 - RSS
 - Twitch

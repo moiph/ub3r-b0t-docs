@@ -5,7 +5,7 @@ Below you'll find a list of frequently asked questions, some of which are accept
 ## Does this bot play music?
 No, and it will never be added.
 
-## How do I set up Twitter / Twitch / Mixer / Picarto / RSS?
+## How do I set up Twitter / Twitch / Picarto / RSS?
 See [Notifications](notifications.md)
 
 ## The admin panel isn't loading.

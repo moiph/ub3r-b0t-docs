@@ -29,7 +29,6 @@ You can:
 ## Notifications
 
 UB3R-B0T supports notifications from various sources:
-- Mixer
 - Picarto
 - Rss
 - Twitch

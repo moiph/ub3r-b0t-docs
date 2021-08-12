@@ -743,7 +743,7 @@ Rolls the dice. Defaults to a 6 sided die but you can supply the # of sides.
 ```
 
 ## rt
-Gets movie infro from Rotten Tomatoes.
+Gets movie info from Rotten Tomatoes.
 
 `.rt movie name`
 
