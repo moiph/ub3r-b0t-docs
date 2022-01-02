@@ -1106,6 +1106,15 @@ Displays the latest item from woot!
 <UB3R-B0T> woot-off! Acer Aspire One 10.1" Netbook going for $229.99 + $5 shipping is available! [====      ] (41%)
 ```
 
+## xkcd
+Fetches the latest / a random / a specific XKCD comic.
+
+`.xkcd` `.xkcd random` `.xkcd ###`
+```html
+<oss> .xkcd
+<UB3R-B0T> [latest xkcd comic]
+```
+
 ## yt
 Searches youtube and returns the first result.
 
