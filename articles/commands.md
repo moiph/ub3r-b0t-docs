@@ -860,6 +860,8 @@ Terminates your user data (weather settings, quotes, timers, etc)
 ## timer
 Set a timer, update an existing timer to repeat, gets your current list of reminders, remove a timer, or snooze/unsnooze a recurring timer.
 
+See https://ub3r.bot/reminderhelper to auto-generate a timer command for you.
+
 `hey buttmunch remind [me|someone else] in X [minutes|hours|days|weeks] to Y` `.timer list` `.timer remove ID` `.timer repeat id [daily|weekly|xh]` `.timer [snooze|unsnooze] id`
 
 ```html
