@@ -862,7 +862,7 @@ Set a timer, update an existing timer to repeat, gets your current list of remin
 
 See https://ub3r.bot/reminderhelper to auto-generate a timer command for you.
 
-`hey buttmunch remind [me|someone else] in X [minutes|hours|days|weeks] to Y` `.timer list` `.timer remove ID` `.timer repeat id [daily|weekly|xh]` `.timer [snooze|unsnooze] id`
+`hey buttmunch remind [me|someone else] in X [minutes|hours|days|weeks] to Y` `.timer list` `.timer remove ID` `.timer repeat id [xh|daily|weekly|monthly]` `.timer [snooze|unsnooze] id`
 
 ```html
 <potato> hey buttmonkey remind me in 5 minutes to dance
