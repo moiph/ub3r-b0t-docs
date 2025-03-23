@@ -470,13 +470,13 @@ Gets more jpeg for an image.
 ```
 
 ## kangaroo
-Returns a random kangaroo from https://some-random-api.ml. Because, kangaroos.
+Returns a random kangaroo from https://animality.xyz/. Because, kangaroos.
 
 `.kangaroo`
 
 ```html
 <phoenix> .kangaroo
-<UB3R-B0T> https://i.some-random-api.ml/0TYIwPumem.jpg
+<UB3R-B0T> https://cdn.animality.xyz/kangaroo/13.png
 ```
 
 ## kill
@@ -490,13 +490,13 @@ No description available (yet)
 ```
 
 ## koala
-Returns a random koala from https://some-random-api.ml/. Because, koalas.
+Returns a random koala from https://animality.xyz/. Because, koalas.
 
 `.koala`
 
 ```html
 <syrus> .koala
-<UB3R-B0T> https://i.some-random-api.ml/8AYPjXtIKV.jpg
+<UB3R-B0T> https://cdn.animality.xyz/koala/2.png
 ```
 
 ## letterboxd
@@ -591,13 +591,13 @@ Returns a random owl from http://pics.floofybot.moe. Because, owls.
 ```
 
 ## panda
-Returns a random panda from https://some-random-api.ml. Because, pandas.
+Returns a random panda from https://cdn.animality.xyz/. Because, pandas.
 
 `.panda`
 
 ```html
 <panda> .panda
-<UB3R-B0T> https://i.imgur.com/l4bahU8.jpg
+<UB3R-B0T> https://cdn.animality.xyz/panda/12.png
 ```
 
 ## patreon
@@ -684,13 +684,13 @@ Rant at the bot. He's a good listener.
 ```
 
 ## redpanda
-Returns a random red panda from https://some-random-api.ml/. Because, red pandas.
+Returns a random red panda from https://api.animality.xyz/. Because, red pandas.
 
 `.redpanda`
 
 ```html
 <helly> .redpanda
-<UB3R-B0T> https://i.imgur.com/KsXZmyv.png
+<UB3R-B0T> https://cdn.animality.xyz/redpanda/0.png
 ```
 
 ## remove
@@ -1079,13 +1079,13 @@ Creates a clock to track how much time has passed since a particular event.
 ```
 
 ## whale
-Returns a random whale from https://some-random-api.ml/. Because, whales.
+Returns a random whale from https://cdn.animality.xyz/. Because, whales.
 
 `.whale`
 
 ```html
 <wine> .whale
-<UB3R-B0T> https://i.some-random-api.ml/v7F4ESFMNk.jpg
+<UB3R-B0T> https://cdn.animality.xyz/whale/8.png
 ```
 
 ## wiki
