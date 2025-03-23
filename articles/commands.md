@@ -706,6 +706,20 @@ For user/bday the ID should be the user's ID.
 <UB3R-B0T> warclock 1337 removed
 ```
 
+## rep
+Reputation command, add or remove reputation for a user to track their goodness.
+
+It's a dark and rainy night. Your car broke down and you just want to get home. You and your friends flag down some help. A mini van full of axe murderers pulls over. You inform them you are just looking for car assistance, not axe murdering. One of them cheerfully chimes in, with a gruff, stern voice: "Lemme axe you a question. Do you need some help? Cause I'm a mechanic". You hesitantly accept. They stagger over and begin inspecting your car's engine. The other axe murderers gaze in your direction with what looks like a thirst for blood. You chuckle to yourself as you remember you have a bunch of red squeeze-its in a cooler in your trunk. Your friends are like "the hell is a squeeze-it". And you're like "get old like me goddamn, they were the shit in the 90s". You pass them out to the axe murderers and it satiates their hunger for axe murdering. Meanwhile the mechanic slaps the hood of your car and exclaims "yeah this bad boy can fit so much kool-aid in it" and you're like "well I got squeeze its" and they're like "well that's cool too, anyway your engine is kickin and ready to axecelerate". You gleefully thank them and decide to use the rep command to show your appreciation. Now anyone else in the server can be like wow that axe murderer is a kind soul when you look past their murderous axeterior.
+
+On discord? You can also use the 🏅 reaction on a message.
+
+`.rep` `.rep @user` `.rep add @user` `.rep remove @user`
+
+```html
+<rowetheboat> .rep add @ProtagonistFox
+<UB3R-B0T> @rowetheboat gave @ProtagonistFox +1 reputation.
+```
+
 ## report
 Reports a user for misbehavior
 
