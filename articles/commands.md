@@ -622,7 +622,8 @@ Tells you your PC specs (approximately)
 ```
 
 ## poll
-Creates a poll via https://strawpoll.com
+Creates a poll via https://strawpoll.com  
+Note: On Discord polls can also be created directly in the client instead of using this command.
 
 `.poll [--multi] "question" "description" | option 1 | option 2 | ...`
 Only provide --multi if you want multiple options to be selected in a single vote.
