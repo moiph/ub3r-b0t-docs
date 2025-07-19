@@ -408,6 +408,9 @@ Displays help / URLs, including to this page.
 ## hltb
 Gets the approximate time to beat a game, from http://howlongtobeat.com
 
+> [!NOTE]
+> This command is currently busted. HLTB currently does not provide an API, so `.hltb` is broken until they provide one, someday™
+
 `hltb game name`
 
 ```html
