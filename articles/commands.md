@@ -142,11 +142,14 @@ Returns a random cat from http://thecatapi.com/. Because, cats.
 ## choose
 Chooses an item from a list. Choices should be separated by commas.
 
-`.choose item1, item2, ...`
+`.choose [--pick:#] item1, item2, ...`  
+Provide a `--pick` (e.g. `--pick:3`) if you want multiple options to be selected.
 
 ```html
 <brain> .choose take over the world, don't take over the world
 <UB3R-B0T> take over the world
+<pinky> .choose --pick:2 wakko, yakko, dot
+<UB3R-B0T> wakko, dot
 ```
 
 ## chuck_norris
