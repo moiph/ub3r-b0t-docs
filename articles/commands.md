@@ -877,6 +877,15 @@ Terminates your user data (weather settings, quotes, timers, etc)
 <m89> .terminate
 <UB3R-B0T> you have been terminated
 ```
+## time
+Gets the current time for you or another user, if a timezone has been set (See [weather](#weather) for location setting)
+
+```html
+<bert> .time
+<UB3R-B0T> Current time: 17:45 (UTC -07:00:00)
+<bert> .time @lewis
+<UB3R-B0T> Current time: 00:45 (UTC 0:00:00)
+```
 
 ## timer
 Set a timer, update an existing timer to repeat, gets your current list of reminders, remove a timer, or snooze/unsnooze a recurring timer.
