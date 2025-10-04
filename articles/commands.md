@@ -1061,7 +1061,11 @@ Adds the bot to the voice channel you're connected to (Discord). Use .dvoice to 
 ```
 
 ## weather
-Check the local weather! You can also save your location so that you don't need to provide a location every time. The other variants (fw/sw/nw etc) give weather data back in other, arguably more fun, ways... [Powered by Dark Sky](https://darksky.net/poweredby/)
+Check the local weather! You can also save your location so that you don't need to provide a location every time. The other variants (fw/sw/nw etc) give weather data back in other, arguably more fun, ways... [Powered by OpenWeather](https://openweathermap.org/)
+
+Additionally, you can allow others to lookup your weather via `set public`.  
+To restrict, use `set private`. 
+Or to clear your location entirely, use `clear` or `remove`
 
 Aliases: `w` `sw` `fw` `nw`
 
@@ -1074,6 +1078,21 @@ Aliases: `w` `sw` `fw` `nw`
 <apples> .w
 <UB3R-B0T> Partly Cloudy, 24F (-4C) (269.15K) / feels like 21F (-6C) (267.15K) |
            Humidity: 64% | 0% chance of precipitation (Boston, Massachusetts (US) as of 12:22 am UTC)
+```
+
+```html
+<moiph> .w @apples
+<UB3R-B0T> nope
+<apples> .w set public
+<UB3R-B0T> Other users can now check your weather.
+<moiph> .w @apples
+<UB3R-B0T> Partly Cloudy, 24F (-4C) (269.15K) / feels like 21F (-6C) (267.15K) |
+           Humidity: 64% | 0% chance of precipitation (Boston, Massachusetts (US) as of 12:22 am UTC)
+```
+
+```html
+<apples> .w clear
+<UB3R-B0T> Your weather location has been removed
 ```
 
 ## wc
