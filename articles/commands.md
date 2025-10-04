@@ -243,6 +243,18 @@ Returns a random dog from random.dog. Because, dogs.
 <UB3R-B0T> http://random.dog/20549-24554-21155.jpg
 ```
 
+## doesthedogdie
+Does the dog die command -- helpful lookup for movies / tv in case you want to avoid media with animal deaths. Because doggies are the best. [Powered by https://www.doesthedogdie.com/](https://www.doesthedogdie.com/)  
+
+Aliases: `dtdd`  
+
+`.dtdd movie`
+
+```html
+<spookybird> .dtdd old yeller
+<UB3R-B0T> Old Yeller (1957) - Consensus is: **Yes** | https://www.doesthedogdie.com/media/10752
+```
+
 ## duck
 Returns a random duck from https://random-d.uk. Because, ducks.
 
@@ -1035,6 +1047,14 @@ Displays some general info about the user (joined date, avatar, etc). Discord on
     nickname: "",
     avatar: "https://linktoavatar",
 }
+```
+
+## vblk
+Vibe links. Supply a phrase (perhaps relevant to current conversation) to generate a vibe link which redirects to a buest guess desintation. [Powered by https://vb.lk/](https://vb.lk/)
+
+```html
+<ms> .vblk always has been
+<UB3R-B0T> https://vb.lk/always-has-been
 ```
 
 ## votekick
