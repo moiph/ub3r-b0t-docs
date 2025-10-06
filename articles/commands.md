@@ -433,6 +433,17 @@ Gets the approximate time to beat a game, from http://howlongtobeat.com
 <UB3R-B0T> 25 Hours  (main story) | 35 Hours  (completionist)
 ```
 
+## hug
+Hugs the target user, or yourself if no target given.
+
+`.hug ` `.hug @user`
+
+```html
+<eyuchyu> .hug
+<UB3R-B0T> *gives eyuchyu a big kiss unethusiastically*
+```
+
+
 ## isup
 Checks to see if the given site is up or not.
 
@@ -505,6 +516,16 @@ No description available (yet)
 ```html
 <auxesis> .kill finite
 <UB3R-B0T> apology for poor english ... when were you when finite dies? i was being rate limited when moiph ring ... "FINITE is kill."   "no"
+```
+
+## kiss
+Kisses the target user, or yourself if no target given.
+
+`.kiss ` `.kiss @user`
+
+```html
+<eyuchyu> .kiss
+<UB3R-B0T> *gives eyuchyu and wonders where we take this from here*
 ```
 
 ## koala
