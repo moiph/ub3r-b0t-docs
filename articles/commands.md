@@ -734,7 +734,7 @@ Returns a random red panda from https://api.animality.xyz/. Because, red pandas.
 ```
 
 ## remove
-Removes a timer/warclock/birthday notifications (for server owners).
+Removes a timer/warclock/birthday notifications (usage restricted to server admins).
 Doing a remove on a 'user' type currently removes all timers associated with that user.
 For wc/timer the ID should be the ID of the respective item.
 For user/bday the ID should be the user's ID.
