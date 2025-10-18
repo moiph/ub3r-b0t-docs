@@ -129,6 +129,17 @@ Aliases: `bday`
 <UB3R-B0T> Your birthday notifications have been set for this channel.
 ```
 
+## book
+Pulls the top search result from https://goodreads.com
+
+`.book title`
+
+```html
+<steve> .book project hail mary
+<UB3R-B0T> Project Hail Mary by Andy Weir | Published: 2021 | https://www.goodreads.com/book/show/54493401-project-hail-mary | Author page: https://www.goodreads.com/author/show/6540057.Andy_Weir
+```
+
+
 ## cat
 Returns a random cat from http://thecatapi.com/. Because, cats.
 
