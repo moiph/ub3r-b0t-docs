@@ -671,6 +671,18 @@ Tells you your PC specs (approximately)
 <UB3R-B0T> OS: idk lol prob windoze | gfx: idk hopefully not onboard lol maybe some nvidia shit
 ```
 
+## pogo
+Set or share your pokemon go trainer code
+
+`.pogo` `.pogo set [code here]`
+
+```html
+<junior> .pogo set 123412341234
+<UB3R-B0T> Your trainer code has been set Retrieve it with .pogo
+<junior> .pogo
+<UB3R-B0T> Your trainer code: 123412341234 {qr code image}
+```
+
 ## poll
 Creates a poll via https://strawpoll.com  
 Note: On Discord polls can also be created directly in the client instead of using this command.
