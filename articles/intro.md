@@ -29,10 +29,10 @@ You can:
 ## Notifications
 
 UB3R-B0T supports notifications from various sources:
+- Bluesky
 - Picarto
 - Rss
 - Twitch
-- Twitter
 
 Configuration of each type can be done in the [Admin panel](https://ub3r-b0t.com/admin)
 
