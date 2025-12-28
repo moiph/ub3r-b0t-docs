@@ -24,6 +24,7 @@ You can:
 - Setup word censors
 - Manage quotes
 - Configure Notifications (see below)
+- Chnage UB3R-B0T's avatar for your server (from a list)
 
 
 ## Notifications
