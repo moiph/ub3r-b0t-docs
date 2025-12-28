@@ -22,7 +22,7 @@ You can:
 - Add your OWN silly auto responses
 - Customize the command prefix (ugh no stahp default maintains consistency)
 - Setup word censors
-- Look at a page of quotes that you can't act upon because I'm a lazy ass and haven't finished the quote management portal
+- Manage quotes
 - Configure Notifications (see below)
 
 
