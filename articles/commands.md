@@ -934,7 +934,7 @@ Terminates your user data (weather settings, quotes, timers, etc)
 <UB3R-B0T> you have been terminated
 ```
 ## time
-Gets the current time for you or another user, if a timezone has been set (See [weather](#weather) for location setting)
+Gets the current time for you or another user, if a timezone has been set (See [weather](#weather) for location setting which will configure your timezone)
 
 ```html
 <bert> .time
@@ -949,6 +949,8 @@ Set a timer, update an existing timer to repeat, gets your current list of remin
 See https://ub3r.bot/reminderhelper to auto-generate a timer command for you.
 
 `hey buttmunch remind [me|someone else] in X [minutes|hours|days|weeks] to Y` `.timer list` `.timer remove ID` `.timer repeat id [xh|daily|weekly|monthly]` `.timer [snooze|unsnooze] id`
+
+When using an absolute time (i.e. `remind me at...`) the timezone can be omitted if your timezone is set (see [weather](#weather) for location setting)
 
 ```html
 <potato> hey buttmonkey remind me in 5 minutes to dance
@@ -1130,6 +1132,8 @@ Check the local weather! You can also save your location so that you don't need 
 Additionally, you can allow others to lookup your weather via `set public`.  
 To restrict, use `set private`. 
 Or to clear your location entirely, use `clear` or `remove`
+
+Setting your weather location will additionally set your timezone, used for time lookup and for reminders (see [timer](#timer) )
 
 Aliases: `w` `sw` `fw` `nw`
 
