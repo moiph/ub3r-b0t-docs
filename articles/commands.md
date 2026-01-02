@@ -114,7 +114,7 @@ Aliases: `birb`
 ```
 
 ## birthday
-Sets your birthday for retrieval or notifications. Currently based off of UTC (i.e. notifications will fire at midnight UTC of your birthday).
+Sets your birthday for retrieval or notifications. Notifications will fire at midnight of your birthday, in your timezone if configured (otherwise, UTC). See [weather](#weather) for setting location / timezone.
 
 Aliases: `bday`
 
