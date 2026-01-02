@@ -16,3 +16,6 @@ See http://blog.markheadrick.com/2016/05/12/how-to-get-a-youtube-channels-rss-fe
 
 ## Limits
 The max number of noitification subscriptions is 10 per type, but that limit is upped to 30 for patreon subscribers.
+
+## Birthdays
+Birthday notifications can be configured by users. See [Birthday](commands.md#birthday) command documentation for details.
