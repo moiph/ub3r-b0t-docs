@@ -776,7 +776,7 @@ It's a dark and rainy night. Your car broke down and you just want to get home. 
 
 On discord? You can also use the 🏅 reaction on a message.
 
-`.rep` `.rep @user` `.rep add @user` `.rep remove @user`
+`.rep` `.rep @user` `.rep add @user` `.rep remove @user` `.rep stats`
 
 ```html
 <rowetheboat> .rep add @ProtagonistFox
