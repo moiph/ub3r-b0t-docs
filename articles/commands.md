@@ -410,13 +410,13 @@ Fetches github data from the commits page of a repo. Not very useful standalone,
 ```
 
 ## gif
-Returns a url for the requested gif (and thus displays it, if in Discord). Results powered by https://tenor.com
+Returns a url for the requested gif (and thus displays it, if in Discord). Results powered by https://klipy.com
 
 `.gif keyword`
 
 ```html
-<zang> .gif yes
-<UB3R-B0T> http://i.imgur.com/sGQWzdz.gif
+<zang> .gif bison yes
+<UB3R-B0T> https://klipy.com/gifs/mr-bison-says-yes
 ```
 
 ## help
