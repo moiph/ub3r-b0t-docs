@@ -16,7 +16,7 @@ Aliases: `8`
 ```
 
 ## admin
-Creates administration settings for the server. (Discord only)
+Creates administration settings for the server. (Discord/Fluxer only)
 
 `.admin`
 
@@ -175,7 +175,7 @@ ALREADY KNOWS ALL OF THEM.
 ```
 
 ## clear
-Deletes the last X messages from the chat. (Discord only) Use .clear # @username to only clear a single user's messages. Bot cannot delete messages older than 2 weeks (Discord restriction)
+Deletes the last X messages from the chat. (non-IRC only) Use .clear # @username to only clear a single user's messages. Bot cannot delete messages older than 2 weeks (platform restriction)
 
 `.clear #` `.clear # @username`
 
@@ -410,7 +410,7 @@ Fetches github data from the commits page of a repo. Not very useful standalone,
 ```
 
 ## gif
-Returns a url for the requested gif (and thus displays it, if in Discord). Results powered by https://klipy.com
+Returns a url for the requested gif (and thus displays it, if not in IRC). Results powered by https://klipy.com
 
 `.gif keyword`
 
@@ -600,7 +600,7 @@ MG)] Year: [1984] Label: [SPV/Steamhammer] Status: [Active]
 ```
 
 ## meme
-Returns a url for requested meme with the given text (and thus displays it, if in Discord). Use .meme list for a list.
+Returns a url for requested meme with the given text (and thus displays it, if not in IRC). Use .meme list for a list.
 
 `.meme memename "text line 1" "text line 2"` `.meme list`
 
@@ -696,7 +696,7 @@ Only provide --multi if you want multiple options to be selected in a single vot
 ```
 
 ## quickpoll
-Starts a quick poll for a yes or no question, via reactions (discord). Add --options # to use a numbered list instead of yes/no
+Starts a quick poll for a yes or no question, via reactions (non-IRC). Add --options # to use a numbered list instead of yes/no
 
 `.qp yes/no question` `.qp yes/no question --options 4`
 
@@ -710,7 +710,7 @@ Starts a quick poll for a yes or no question, via reactions (discord). Add --opt
 
 ## quote
 Get or add quotes for your channel/server.
-If you're on Discord, you can react to a message with the 💬 emoji to add a quote.
+If you're not on IRC, you can react to a message with the 💬 emoji to add a quote.
 
 `.quote` `.quote #` `.quote @nickname` `.quote userid:###` `.quote add "text" - author` `.quote edit # "text" - author` `.quote remove #` `.quote count`
 
@@ -774,7 +774,7 @@ Reputation command, add or remove reputation for a user to track their goodness.
 
 It's a dark and rainy night. Your car broke down and you just want to get home. You and your friends flag down some help. A mini van full of axe murderers pulls over. You inform them you are just looking for car assistance, not axe murdering. One of them cheerfully chimes in, with a gruff, stern voice: "Lemme axe you a question. Do you need some help? Cause I'm a mechanic". You hesitantly accept. They stagger over and begin inspecting your car's engine. The other axe murderers gaze in your direction with what looks like a thirst for blood. You chuckle to yourself as you remember you have a bunch of red squeeze-its in a cooler in your trunk. Your friends are like "the hell is a squeeze-it". And you're like "get old like me goddamn, they were the shit in the 90s". You pass them out to the axe murderers and it satiates their hunger for axe murdering. Meanwhile the mechanic slaps the hood of your car and exclaims "yeah this bad boy can fit so much kool-aid in it" and you're like "well I got squeeze its" and they're like "well that's cool too, anyway your engine is kickin and ready to axecelerate". You gleefully thank them and decide to use the rep command to show your appreciation. Now anyone else in the server can be like wow that axe murderer is a kind soul when you look past their murderous axeterior.
 
-On discord? You can also use the 🏅 reaction on a message.
+On something other than IRC? You can also use the 🏅 reaction on a message.
 
 `.rep` `.rep @user` `.rep add @user` `.rep remove @user` `.rep stats`
 
@@ -794,7 +794,7 @@ Reports a user for misbehavior
 ```
 
 ## role
-Allows a user to self assign a role (or remove it). Configure available roles in the admin panel. (Discord)
+Allows a user to self assign a role (or remove it). Configure available roles in the admin panel.
 
 `.role rolename` `.derole rolename`
 
@@ -1084,7 +1084,7 @@ Gets the bot's current uptime.
 ```
 
 ## userinfo
-Displays some general info about the user (joined date, avatar, etc). Discord only.
+Displays some general info about the user (joined date, avatar, etc).
 
 ```html
 <bucky> .userinfo 
