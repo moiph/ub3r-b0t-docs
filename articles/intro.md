@@ -34,6 +34,7 @@ UB3R-B0T supports notifications from various sources:
 - Picarto
 - Rss
 - Twitch
+- YouTube
 
 Configuration of each type can be done in the [Admin panel](https://ub3r-b0t.com/admin) (Currently Discord/Fluxer only)
 
